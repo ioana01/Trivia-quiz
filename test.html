@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="loadersheet.css">
+    <title>Test</title>
+</head>
+
+<!-- <body onload="Timer()"> -->
+<body>
+    <!-- <div class="loader" id="rotita"></div>
+    <p id="text">Loading...</p> -->
+
+    <div id="bara">
+        <img src="logo2.png" id="logo"> 
+        <span id="textTitle">Test</span> 
+    </div>
+
+    <div class="box" id="qu0">
+        <span id="q0"></span> <br>
+        <div class="question">
+            <input type="radio" value="0" name="q0" id="ba0" onclick="checkAddress('ba0', 'q0')"><span id="a0" class="colors" onclick="buttnCheck('ba0', 'q0')"></span> <br>
+            <input type="radio" value="1" name="q0" id="bb0" onclick="checkAddress('bb0', 'q0')"><span id="b0" class="colors" onclick="buttnCheck('bb0', 'q0')"></span> <br>
+            <input type="radio" value="0" name="q0" id="bc0" onclick="checkAddress('bc0', 'q0')"><span id="c0" class="colors" onclick="buttnCheck('bc0', 'q0')"></span> <br>
+            <input type="radio" value="0" name="q0" id="bd0" onclick="checkAddress('bd0', 'q0')"><span id="d0" class="colors" onclick="buttnCheck('bd0', 'q0')"></span> <br>
+        </div>
+    </div>
+
+    <div class="box" id="qu1">
+        <div id="q1"></div>
+        <div class="question">
+            <input type="radio" value="0" name="q1" id="ba1" onclick="checkAddress('ba1', 'q1')"><span id="a1" class="colors" onclick="buttnCheck('ba1', 'q1')"></span> <br>
+            <input type="radio" value="1" name="q1" id="bb1" onclick="checkAddress('bb1', 'q1')"><span id="b1" class="colors" onclick="buttnCheck('bb1', 'q1')"></span> <br>
+            <input type="radio" value="0" name="q1" id="bc1" onclick="checkAddress('bc1', 'q1')"><span id="c1" class="colors" onclick="buttnCheck('bc1', 'q1')"></span> <br>
+            <input type="radio" value="0" name="q1" id="bd1" onclick="checkAddress('bd1', 'q1')"><span id="d1" class="colors" onclick="buttnCheck('bd1', 'q1')"></span> <br>
+        </div>
+    </div>
+
+    <div class="box" id="qu2">
+        <div id="q2"></div>
+        <div class="question">
+            <input type="radio" value="0" name="q2" id="ba2" onclick="checkAddress('ba2', 'q2')"><span id="a2" class="colors" onclick="buttnCheck('ba2', 'q2')"></span> <br>
+            <input type="radio" value="1" name="q2" id="bb2" onclick="checkAddress('bb2', 'q2')"><span id="b2" class="colors" onclick="buttnCheck('bb2', 'q2')"></span> <br>
+            <input type="radio" value="0" name="q2" id="bc2" onclick="checkAddress('bc2', 'q2')"><span id="c2" class="colors" onclick="buttnCheck('bc2', 'q2')"></span> <br>
+            <input type="radio" value="0" name="q2" id="bd2" onclick="checkAddress('bd2', 'q2')"><span id="d2" class="colors" onclick="buttnCheck('bd2', 'q2')"></span>
+        </div>
+    </div>
+
+    <div class="box" id="qu3">
+        <div id="q3"></div>
+        <div class="question">
+            <input type="radio" value="0" name="q3" id="ba3" onclick="checkAddress('ba3', 'q3')"><span id="a3" class="colors" onclick="buttnCheck('ba3', 'q3')"></span> <br>
+            <input type="radio" value="1" name="q3" id="bb3" onclick="checkAddress('bb3', 'q3')"><span id="b3" class="colors" onclick="buttnCheck('bb3', 'q3')"></span> <br>
+            <input type="radio" value="0" name="q3" id="bc3" onclick="checkAddress('bc3', 'q3')"><span id="c3" class="colors" onclick="buttnCheck('bc3', 'q3')"></span> <br>
+            <input type="radio" value="0" name="q3" id="bd3" onclick="checkAddress('bd3', 'q3')"><span id="d3" class="colors" onclick="buttnCheck('bd3', 'q3')"></span>
+        </div>
+    </div>
+
+    <div class="box" id="qu4">
+        <div id="q4"></div>
+        <div class="question">
+            <input type="radio" value="0" name="q4" id="ba4" onclick="checkAddress('ba4', 'q4')"><span id="a4" class="colors" onclick="buttnCheck('ba4', 'q4')"></span> <br>
+            <input type="radio" value="1" name="q4" id="bb4" onclick="checkAddress('bb4', 'q4')"><span id="b4" class="colors" onclick="buttnCheck('bb4', 'q4')"></span> <br>
+            <input type="radio" value="0" name="q4" id="bc4" onclick="checkAddress('bc4', 'q4')"><span id="c4" class="colors" onclick="buttnCheck('bc4', 'q4')"></span> <br>
+            <input type="radio" value="0" name="q4" id="bd4" onclick="checkAddress('bd4', 'q4')"><span id="d4" class="colors" onclick="buttnCheck('bd4', 'q4')"></span>
+        </div>
+    </div>
+
+    <!-- <a href="results.htl" id="link"> -->
+        <div id="btn" onclick="checkR()">
+            Check
+        </div>
+    <!-- </a> -->
+
+    <div class="box" id="result">
+           
+        <div id="mdiv" onclick="resultBox()">
+            <div class="mdiv">
+                <div class="md">
+                </div>
+            </div>
+        </div>
+        Congrats!
+        <div id="percent">
+            Results:
+        </div>
+    </div>
+
+    <script src="loader.js"></script>
+    <script src="test.js"></script>
+    <script src="question.js"></script>
+</body>
+</html>
